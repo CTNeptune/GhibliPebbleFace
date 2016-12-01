@@ -6,7 +6,7 @@ Pebble.addEventListener("ready",
 Pebble.addEventListener("showConfiguration",
   function(e) {
     //Load the remote config page
-    Pebble.openURL("http://theneptune.site/watch-config/ghibli.html");
+    Pebble.openURL("");
   }
 );
 Pebble.addEventListener("webviewclosed",
