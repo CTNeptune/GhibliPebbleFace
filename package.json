@@ -1,0 +1,69 @@
+{
+    "author": "Thomas Neptune",
+    "dependencies": {},
+    "keywords": [],
+    "name": "ghibli",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Ghibli",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "KEY_BG": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/catbus.png",
+                    "name": "IMAGE_BG_CATBUS",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/calcifer.png",
+                    "name": "IMAGE_BG_CALCIFER",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/noface.png",
+                    "name": "IMAGE_BG_NOFACE",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/totoro.png",
+                    "name": "IMAGE_BG_TOTORO",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/robot.png",
+                    "name": "IMAGE_BG_ROBOT",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_ICON",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/Muli.ttf",
+                    "name": "FONT_MULI_24",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "275d5985-f316-4047-bba1-c88ec00d04e3",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.3.0"
+}
